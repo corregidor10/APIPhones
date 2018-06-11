@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/TajamarApiReact/v15
+/Model/bin/Debug/netcoreapp2.0
+/Model/obj/Debug/netcoreapp2.0
+/Service/bin/Debug/netcoreapp2.0
+/Service/obj/Debug/netcoreapp2.0
+/Service/obj
+/TajamarApiReact/bin/Debug/netcoreapp2.0
+/Model/obj
