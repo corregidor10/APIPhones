@@ -11,3 +11,4 @@
 /TajamarApiReact/bin
 /Model/obj
 /Model/bin
+*.sqlite
