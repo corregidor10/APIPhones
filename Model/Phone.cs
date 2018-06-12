@@ -8,7 +8,7 @@ namespace Model
     {
         public string Name { get; set; }
         public string Brand { get; set; }
-        public string Descripton { get; set; }
+        public string Description { get; set; }
         public string Color { get; set; }
         public int Price { get; set; }
         public string ImageUrl { get; set; }

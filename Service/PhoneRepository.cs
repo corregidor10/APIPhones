@@ -21,7 +21,7 @@ namespace Service
             {
                 await connection.OpenAsync();
                 StringBuilder sb = new StringBuilder();
-                sb.Append("SELECT Id, Name, Brand, Descripton, Color, ImageUrl, Price ");
+                sb.Append("SELECT Id, Name, Brand, Descripton as Description, Color, ImageUrl, Price ");
                 sb.Append("FROM PHONES");
                 String sql = sb.ToString();
 
@@ -41,7 +41,7 @@ namespace Service
             {
                 await connection.OpenAsync();
                 StringBuilder sb = new StringBuilder();
-                sb.Append($"SELECT Id, Name, Brand, Descripton, Color, ImageUrl, Price, Height, Width, SO, Scoring ");
+                sb.Append($"SELECT Id, Name, Brand, Descripton as Description, Color, ImageUrl, Price, Height, Width, SO, Scoring ");
                 sb.Append("FROM PHONES ");
                 sb.Append($"WHERE Id={id}");
                 String sql = sb.ToString();
@@ -60,8 +60,8 @@ namespace Service
                 new SqlConnectionStringBuilder
                 {
                     DataSource = "tcp:tajamarreactserver.database.windows.net",
-                    UserID = "USER",
-                    Password = "PASS",
+                    UserID = "administro",
+                    Password = "12345.aa",
                     InitialCatalog = "bbddreacttajamar"
                 };
             return builder;
