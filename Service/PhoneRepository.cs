@@ -60,8 +60,8 @@ namespace Service
                 new SqlConnectionStringBuilder
                 {
                     DataSource = "tcp:tajamarreactserver.database.windows.net",
-                    UserID = "administro",
-                    Password = "12345.aa",
+                    UserID = "__USERNAME__",
+                    Password = "__PASS___",
                     InitialCatalog = "bbddreacttajamar"
                 };
             return builder;

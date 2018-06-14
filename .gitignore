@@ -12,3 +12,6 @@
 /Model/obj
 /Model/bin
 *.sqlite
+/TajamarApiReact/Properties/PublishProfiles/reactTajamar - Web Deploy.pubxml.user
+/TajamarApiReact/Properties/PublishProfiles/reactTajamar - Web Deploy.pubxml
+/.vs/VSWorkspaceState.json
